@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48e00f6b-a7bf-4cc8-9d3d-5431b8b1cfe0" name="Changes" comment="" />
+    <list default="true" id="48e00f6b-a7bf-4cc8-9d3d-5431b8b1cfe0" name="Changes" comment="New portfolio" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +21,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MrNyvle"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MrNyvle/MrNyvle.github.io",
+    "accountId": "9496de64-537d-4d75-ac0a-28f7326cdb59"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -35,7 +47,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "last_opened_file_path": "/home/nyvle/WebstormProjects/PortfolioBootstrap",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/nyvle/WebstormProjects/MrNyvle.github.io",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,10 +81,24 @@
       <updated>1758541637144</updated>
       <workItem from="1758541638728" duration="7719000" />
       <workItem from="1758549533135" duration="81000" />
+      <workItem from="1758549615246" duration="157000" />
     </task>
+    <task id="LOCAL-00001" summary="New portfolio">
+      <option name="closed" value="true" />
+      <created>1758549698035</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758549698035</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="New portfolio" />
   </component>
 </project>
