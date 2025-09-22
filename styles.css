@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'ClearSans';
+    src: url('fonts/ClearSans-Regular.ttf');
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'ClearSans', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+    flex-direction: column;
+    color: #343434;
+}
+
+.split {
+    display: flex;
+    height: 768px;
+    max-width: 1366px;
+    width: 100%;
+    align-items: center;
+}
+
+.side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.splitWork {
+    display: flex;
+    height: 768px;
+    max-width: 1366px;
+    width: 100%;
+    align-items: baseline;
+    margin-top: 8rem;
+}
+
+.splitColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 768px;
+    max-width: 1366px;
+    width: 100%;
+}
+.splitColumn > .title {
+    flex: 1; /* 1 part of total */
+}
+
+.splitColumn > .content {
+    flex: 2; /* 2 parts of total */
+}
+
+.alignLeft{
+    align-items: baseline;
+    text-align: left;
+}
+
+h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+h2 {
+    margin: 0.5rem 0 1.5rem;
+    font-size: 2rem;
+}
+h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 0.5rem 0 1.5rem;
+    font-size: 1.2rem;
+}
+
+.marginTop{
+    margin-top: 4rem;
+}
+.marginLeftRight{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.marginBottom{
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background: #333;
+    color: white;
+    padding: 12px 32px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+.btnWhite {
+    background: white;
+    color: #333;
+    padding: 12px 32px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.btnWhite:hover {
+    background: #9e9e9e;
+}
+
+.backgroundBlack{
+    background: #000;
+    color: white;
+}
+
+.backgroundLightBrown {
+    background: #343434;
+    color: white;
+}
